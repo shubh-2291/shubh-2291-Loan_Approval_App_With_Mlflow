@@ -1,1 +1,17 @@
-key: val
+COLUMNS:
+  loan_id: object
+  gender: object
+  married: object
+  dependents: float64
+  education: object
+  self_employed: object
+  applicantincome: int64
+  coapplicantincome: float64
+  loanamount: float64
+  loan_amount_term: float64
+  credit_history: float64
+  property_area: object
+  loan_status: object
+
+TARGET_COLUMN:
+  name: loan_status
