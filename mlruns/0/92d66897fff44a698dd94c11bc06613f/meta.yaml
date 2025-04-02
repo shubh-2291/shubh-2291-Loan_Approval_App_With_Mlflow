@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Data%20Science/LoanApprovalAppWith-Mlflow/Loan-APP/mlruns/0/92d66897fff44a698dd94c11bc06613f/artifacts
+end_time: 1743605641026
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92d66897fff44a698dd94c11bc06613f
+run_name: flawless-bug-570
+run_uuid: 92d66897fff44a698dd94c11bc06613f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743605625252
+status: 3
+tags: []
+user_id: shubh
