@@ -1,4 +1,101 @@
-# ML_Project
+# Loan Approval App with MLflow
+
+## Overview
+The **Loan Approval App** is a machine learning-based application designed to predict loan approvals based on various applicant details. The project integrates **MLflow** for tracking and managing the machine learning lifecycle, ensuring model reproducibility and performance monitoring.
+
+## Features
+- **Machine Learning Model**: Uses a predictive model to determine loan approval.
+- **MLflow Integration**: Tracks model parameters, metrics, and artifacts.
+- **Flask API**: Exposes endpoints for loan prediction.
+- **Frontend Interface**: Simple UI for users to input applicant details.
+- **Docker Support**: Containerized deployment using Docker.
+
+## Tech Stack
+- **Programming Language**: Python
+- **Machine Learning**: Scikit-learn
+- **Model Tracking**: MLflow, DAGsHub
+- **Backend**: Flask
+- **Frontend**: HTML, CSS, JavaScript
+- **Database**: SQLite/PostgreSQL (if applicable)
+- **Containerization**: Docker
+
+## Installation & Setup
+### Prerequisites
+Ensure you have the following installed:
+- Python 3.8+
+- pip
+- Virtual environment (optional but recommended)
+- Docker (optional for containerized deployment)
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shubh-2291/shubh-2291-Loan_Approval_App_With_Mlflow.git
+   cd Loan_Approval_App_With_Mlflow
+   ```
+2. Create a virtual environment (optional but recommended):
+   ```bash
+   python -m venv env
+   source venv/bin/activate  # On Windows use `env\Scripts\activate`
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run MLflow tracking server (if using locally):
+   ```bash
+   mlflow ui --port 5000
+   ```
+5. Start the Flask app:
+   ```bash
+   python app.py
+   ```
+6. Access the UI at:
+   ```
+   http://127.0.0.1:8080
+   ```
+
+## Usage
+1. Open the web interface.
+2. Enter applicant details.
+3. Click on "Predict" to check loan approval status.
+4. View MLflow dashboard to monitor model performance.
+
+## Deployment
+### Docker
+1. Build the Docker image:
+   ```bash
+   docker build -t loan-approval-app .
+   ```
+2. Run the container:
+   ```bash
+   docker run -p 5000:5000 loan-approval-app
+   ```
+
+### Cloud Deployment (Optional)
+- Deploy on **AWS**.
+- Use **CI/CD pipelines** for automated deployment.
+
+## MLflow Tracking
+- **Experiments**: Logs model versions, parameters, and metrics.
+- **Artifact Store**: Stores model files and experiment data.
+- **Comparison**: Compare different models and track performance.
+
+## Contributing
+1. Fork the repository.
+2. Create a new branch (`feature-branch`).
+3. Commit changes and push to your branch.
+4. Open a pull request.
+
+## License
+This project is licensed under the **MIT License**.
+
+## Contact
+For any queries, contact:
+- **GitHub**: [shubh-2291](https://github.com/shubh-2291)
+
+
+<!-- # ML_Project
 
 ## Workflows
 
@@ -157,4 +254,4 @@ MLflow
 
  - Its Production Grade
  - Trace all of your expriements
- - Logging & tagging your model
+ - Logging & tagging your model -->
