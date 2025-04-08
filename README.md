@@ -16,7 +16,7 @@ The **Loan Approval App** is a machine learning-based application designed to pr
 - **Model Tracking**: MLflow, DAGsHub
 - **Backend**: Flask
 - **Frontend**: HTML, CSS, JavaScript
-- **Database**: SQLite/PostgreSQL (if applicable)
+- **Database**: MySQL
 - **Containerization**: Docker
 
 ## Installation & Setup
